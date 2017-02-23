@@ -4,8 +4,10 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $dob = $_GET["dob"];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last!</p>";
+    echo "<p>Your birthday is $dob<p>";
 ?>
 </body>
 </html>
