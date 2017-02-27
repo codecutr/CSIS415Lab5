@@ -3,10 +3,11 @@
 <!-- Display your form's new input. -->
 <?php
     $first = $_GET["first"];
+    $middle = $_GET["middle"];
     $last = $_GET["last"];
-    $date = $_GET["date"];
+    
 
-    echo "<p>Hello $first $last $date!</p>"; 
+    echo "<p>Hello $first $middle $last!</p>"; 
 ?>
 </body>
 </html>
