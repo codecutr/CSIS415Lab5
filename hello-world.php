@@ -4,8 +4,9 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $date = $_GET["date"];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last $date!</p>"; 
 ?>
 </body>
 </html>
