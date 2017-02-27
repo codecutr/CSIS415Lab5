@@ -4,8 +4,10 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $fork = $_GET["fork"];
 
     echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Want to fork? $fork </p";
 ?>
 </body>
 </html>
