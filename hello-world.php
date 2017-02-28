@@ -4,8 +4,9 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $password = $_GET["password"];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last $password!</p>"; 
 ?>
 </body>
 </html>
