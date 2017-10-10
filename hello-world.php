@@ -4,8 +4,9 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $fidgetspinner = $_GET["fidgetspinner"];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last! Your favorite type of Fidget Spinner is $fidgetspinner.</p>"; 
 ?>
 </body>
 </html>
