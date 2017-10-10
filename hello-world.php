@@ -4,8 +4,9 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $game = $_GET["game"];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last!  Do you really like $game?  That game sucks!</p>"; 
 ?>
 </body>
 </html>
