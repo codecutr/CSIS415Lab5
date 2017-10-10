@@ -4,6 +4,7 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $myinput = $_GET["myinput"];
 
     echo "<p>Hello $first $last!</p>"; 
 ?>
