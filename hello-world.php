@@ -4,8 +4,9 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
-
-    echo "<p>Hello $first $last!</p>"; 
+    $lit = $_GET["lit"]; 
+    echo "<p>Hello $first $last!</p>";
+    echo "<h7>YOU'VE ACHIEVED A LIT LEVEL OF $lit</h7>";
 ?>
 </body>
 </html>
