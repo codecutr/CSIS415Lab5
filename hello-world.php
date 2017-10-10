@@ -4,8 +4,10 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $email = $_GET['email'];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last!</p>";
+    echo "<p>Your email is $email</p>"
 ?>
 </body>
 </html>
