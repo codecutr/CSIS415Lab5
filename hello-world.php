@@ -4,8 +4,9 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $residence = $_GET["residence"];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last from $residence!</p>"; 
 ?>
 </body>
 </html>
