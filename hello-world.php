@@ -4,8 +4,9 @@
 <?php
     $first = $_GET["first"];
     $last = $_GET["last"];
+    $color = $_GET["color"];
 
-    echo "<p>Hello $first $last!</p>"; 
+    echo "<p>Hello $first $last! Your favorite color is $color!</p>"; 
 ?>
 </body>
 </html>
